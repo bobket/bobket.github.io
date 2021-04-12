@@ -119,7 +119,7 @@
             init: function () {
                 S.Drawing.init('.canvas');
                 document.body.classList.add('body--ready');
-                S.UI.simulate("小鱼儿❤️|于千万人之中|我们如此相遇|于千万年之中|时间的无涯荒野里|没有早一步，也没有晚一步|我要你知道|这世界上有一个人是永远等着你的|不管是在什么时候|不管你是在什么地方|现在我来了❤️|#time");
+                S.UI.simulate("小鱼儿❤️|于千万人之中|我们如此相遇|于千万年之中|时间的无涯荒野里|没有早一步|也没有晚一步|我要你知道|这世界上有一个人是永远等着你的|不管是在什么时候|不管你是在什么地方|现在我来了❤️|#time");
                 S.Drawing.loop(function () {
                     S.Shape.render();
                 });
@@ -135,7 +135,7 @@
                     window.oRequestAnimationFrame ||
                     window.msRequestAnimationFrame ||
                     function (callback) {
-                        window.setTimeout(callback, 1000 / 60);
+                        window.setTimeout(callback, 3000 / 60);
                     };
             return {
                 init: function (el) {
